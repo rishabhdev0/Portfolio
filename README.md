@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="./src/assets/profilePicture.jpeg" alt="Rishabh Pandey Profile Picture" width="140" height="140" style="border-radius: 50%;" />
+  <img src="./screenshots/profilePicture.jpeg" alt="Rishabh Pandey Profile Picture" width="140" height="140" style="border-radius: 50%;" />
 
   # 🚀 Rishabh Portfolio
 
@@ -53,7 +53,7 @@
 
 This is the real homepage preview of **Rishabh Portfolio**.
 
-<img src="./src/assets/frontpage.png" alt="Rishabh Portfolio Homepage Screenshot" />
+<img src="./screenshots/frontpage.png" alt="Rishabh Portfolio Homepage Screenshot" />
 
 ---
 
@@ -85,7 +85,7 @@ The design uses a neo-brutalist style with strong borders, bright colors, hard s
 
 ### 🎙️ Sonicra
 
-<img src="./src/assets/sonicra.jpeg" alt="Sonicra Project Screenshot" />
+<img src="./screenshots/sonicra.jpeg" alt="Sonicra Project Screenshot" />
 
 **Sonicra** is a voice generation platform built with **TypeScript**, **React**, and voice AI tools.
 
@@ -95,7 +95,7 @@ The design uses a neo-brutalist style with strong borders, bright colors, hard s
 
 ### ✂️ FlixCut
 
-<img src="./src/assets/flixcut.png.jpeg" alt="FlixCut Project Screenshot" />
+<img src="./screenshots/flixcut.png.jpeg" alt="FlixCut Project Screenshot" />
 
 **FlixCut** is an all-in-one browser-based file toolkit for useful file operations.
 
@@ -105,7 +105,7 @@ The design uses a neo-brutalist style with strong borders, bright colors, hard s
 
 ### 🗳️ Decentralized Voting System
 
-<img src="./src/assets/voting-system.png" alt="Decentralized Voting System Screenshot" />
+<img src="./screenshots/voting-system.png" alt="Decentralized Voting System Screenshot" />
 
 **Decentralized Voting System** is a Web3 voting project focused on secure and transparent voting flows.
 
