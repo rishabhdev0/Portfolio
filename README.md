@@ -45,13 +45,6 @@
     </a>
   </p>
 
-  <p>
-    <img src="https://img.shields.io/badge/React.js-19-61DAFB?style=for-the-badge&logo=react&logoColor=111111" alt="React" />
-    <img src="https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-    <img src="https://img.shields.io/badge/Tailwind_CSS-4-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-    <img src="https://img.shields.io/badge/Framer_Motion-Animation-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion" />
-  </p>
-
 </div>
 
 ---
@@ -160,76 +153,6 @@ The design uses a neo-brutalist style with strong borders, bright colors, hard s
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
-![Web3Forms](https://img.shields.io/badge/Web3Forms-FF6B6B?style=for-the-badge)
-![Vercel Analytics](https://img.shields.io/badge/Vercel_Analytics-000000?style=for-the-badge&logo=vercel&logoColor=white)
-
----
-
-## 🧠 Skills
-
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![React](https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=111111)
-![Next.js](https://img.shields.io/badge/Next.js-111111?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS_Basics-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-
----
-
-## 📂 Folder Structure
-
-```txt
-Portfolio/
-├── public/
-│   ├── vite.svg
-│   └── skills/
-│       └── skill icons
-├── src/
-│   ├── assets/
-│   │   ├── frontpage.png
-│   │   ├── profilePicture.jpeg
-│   │   ├── sonicra.jpeg
-│   │   ├── flixcut.png.jpeg
-│   │   ├── voting-system.png
-│   │   ├── image1.png
-│   │   ├── image.png
-│   │   └── leetcodolio.png
-│   ├── components/
-│   │   ├── Navbar.jsx
-│   │   ├── HeroSection.jsx
-│   │   ├── ProjectSection.jsx
-│   │   ├── SkillsSection.jsx
-│   │   ├── Education.jsx
-│   │   ├── ContactSection.jsx
-│   │   ├── Footer.jsx
-│   │   └── CustomCursor.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── package.json
-├── vite.config.js
-└── README.md
-```
-
----
-
-## ⚙️ Run Locally
-
-```bash
-git clone https://github.com/rishabhdev0/Portfolio.git
-cd Portfolio
-npm install
-npm run dev
-```
 
 ---
 
