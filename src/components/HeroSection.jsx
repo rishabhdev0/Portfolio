@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Education from './Education';
+import profilePicture from '../assets/profilePicture.jpeg';
 
 const HeroSection = () => {
     return (
@@ -105,7 +106,11 @@ const HeroSection = () => {
             </div>
 
             {/* Background Elements (retained) */}
-            <div className="absolute top-20 left-10 w-20 h-20 bg-neo-yellow border-3 border-black rounded-full opacity-50 hidden md:block pointer-events-none"></div>
+            <img
+                src={profilePicture}
+                alt="Rishabh Pandey"
+                className="absolute top-20 left-10 w-20 h-20 border-3 border-black rounded-full object-cover shadow-neo hidden md:block pointer-events-none"
+            />
             <div className="absolute top-1/2 right-10 w-32 h-32 bg-neo-accent border-3 border-black opacity-50 hidden md:block pointer-events-none"></div>
         </section>
     );

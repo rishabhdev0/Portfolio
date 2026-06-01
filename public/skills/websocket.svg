@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">WebSockets</title>
+  <rect x="10" y="10" width="108" height="108" rx="18" fill="#111827"/>
+  <path d="M38 46c14-14 38-14 52 0" fill="none" stroke="#4ecdc4" stroke-width="9" stroke-linecap="round"/>
+  <path d="M48 58c9-8 23-8 32 0" fill="none" stroke="#ffe66d" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="64" cy="76" r="8" fill="#ff6b6b"/>
+  <path d="M34 88h60" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+  <path d="M44 98h40" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".65"/>
+</svg>

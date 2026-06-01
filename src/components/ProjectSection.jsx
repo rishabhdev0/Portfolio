@@ -1,6 +1,9 @@
 
 import { motion } from 'framer-motion';
 import { ExternalLink, Github, Play } from 'lucide-react';
+import sonicra from '../assets/sonicra.jpeg';
+import flixcut from '../assets/flixcut.png.jpeg';
+import votingSystem from '../assets/voting-system.png';
 import leetcodolio from '../assets/leetcodolio.png';
 import image1 from '../assets/image1.png';
 import image from '../assets/image.png';
@@ -10,6 +13,34 @@ const ProjectSection = () => {
     const projects = [
         {
             id: 0,
+            title: "Sonicra",
+            description: "Voice generation platform for creating, managing, and tracking text-to-speech generations with clean analytics and voice tools.",
+            image: sonicra,
+            tags: ["TypeScript", "React.js", "Voice AI", "Text to Speech"],
+            demoUrl: "https://github.com/rishabhdev0/Sonicra-",
+            githubUrl: "https://github.com/rishabhdev0/Sonicra-",
+        },
+        {
+            id: 1,
+            title: "FlixCut",
+            description: "All-in-one browser file toolkit for background removal, file conversion, PDF merge, compression, and private client-side utilities.",
+            image: flixcut,
+            tags: ["React.js", "File Tools", "PDF", "Client-Side"],
+            demoUrl: "https://github.com/rishabhdev0/FlixCut",
+            githubUrl: "https://github.com/rishabhdev0/FlixCut",
+        },
+        {
+            id: 2,
+            title: "Decentralized Voting System",
+            description: "Blockchain-based voting experience planned for secure elections, transparent vote records, and verifiable smart contract flows.",
+            image: votingSystem,
+            tags: ["Blockchain", "Smart Contracts", "Web3", "Security"],
+            demoUrl: "#",
+            githubUrl: "#",
+            isUnderConstruction: true,
+        },
+        {
+            id: 3,
             title: "Gaming Hub",
             description: "Modern gaming landing page featuring stunning 3D visuals, smooth animations, interactive hero sections, and immersive design elements.",
             image: image1,
@@ -18,7 +49,7 @@ const ProjectSection = () => {
             githubUrl: "https://github.com/rishabhdev0/gamingpwebsite",
         },
         {
-            id: 1,
+            id: 4,
             title: "Travio",
             description: "Travel booking platform with destination galleries, search functionality, interactive maps, and fully responsive layout for seamless browsing.",
             image: image,
@@ -26,7 +57,7 @@ const ProjectSection = () => {
             demoUrl: "#",
             githubUrl: "https://github.com/rishabhdev0/Travio",
         },{
-            id: 1,
+            id: 5,
             title: "LeetCodolio",
             description: "Automatically builds a portfolio from your LeetCode stats.",
             image: leetcodolio,
@@ -73,23 +104,25 @@ const ProjectSection = () => {
                                 ))}
                             </div>
 
-                            <div className="flex gap-4 mt-auto">
+                            <div className="flex flex-col sm:flex-row gap-4 mt-auto">
                                 <a
                                     href={project.githubUrl}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="flex-1 flex items-center justify-center gap-2 bg-black text-white py-2 font-bold border-2 border-transparent hover:bg-white hover:text-black hover:border-black transition-colors"
+                                    aria-disabled={project.githubUrl === '#'}
+                                    className={`flex-1 flex items-center justify-center gap-2 bg-black text-white py-2 px-2 font-bold border-2 border-transparent hover:bg-white hover:text-black hover:border-black transition-colors text-center ${project.githubUrl === '#' ? 'opacity-50 cursor-not-allowed pointer-events-none' : ''}`}
                                 >
-                                    <Github size={18} /> Code
+                                    <Github size={18} /> {project.isUnderConstruction ? 'Under Construction' : 'Code'}
                                 </a>
                                 <a
                                     href={project.demoUrl}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className={`flex-1 flex items-center justify-center gap-2 bg-neo-main text-white py-2 font-bold border-2 border-black shadow-neo hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px] transition-all ${project.demoUrl === '#' ? 'opacity-50 cursor-not-allowed pointer-events-none' : ''}`}
+                                    aria-disabled={project.demoUrl === '#'}
+                                    className={`flex-1 flex items-center justify-center gap-2 bg-neo-main text-white py-2 px-2 font-bold border-2 border-black shadow-neo hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px] transition-all text-center ${project.demoUrl === '#' ? 'opacity-50 cursor-not-allowed pointer-events-none' : ''}`}
                                 >
                                     {project.videoSrc ? <Play size={18} /> : <ExternalLink size={18} />}
-                                    {project.videoSrc ? 'Watch' : 'Demo'}
+                                    {project.isUnderConstruction ? 'Under Construction' : project.videoSrc ? 'Watch' : 'Demo'}
                                 </a>
                             </div>
                         </motion.div>

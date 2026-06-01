@@ -6,14 +6,17 @@ const SkillsSection = () => {
         { name: "C++ (OOPS, DSA)", image: "/skills/c++.png", category: "languages" },
         { name: "JavaScript (ES6)+", image: "/skills/javascript.svg", category: "languages" },
         { name: "Python", image: "/skills/python.svg", category: "languages" },
+        { name: "Solidity", image: "/skills/Solidity-Logo.wine.svg", category: "languages" },
 
-        { name: "HTML", image: "/skills/html.svg", category: "webdev" },
-        { name: "CSS", image: "/skills/css.svg", category: "webdev" },
+        { name: "WebSockets", image: "/skills/websocket.svg", category: "webdev" },
+        { name: "WebRTC", image: "/skills/webrtc.svg", category: "webdev" },
         { name: "REST API", image: "/skills/restapi.png", category: "webdev" },
         { name: "GraphQL", image: "/skills/graphql.svg", category: "webdev" },
 
         { name: "React.js", image: "/skills/react.svg", category: "frameworks" },
         { name: "Express.js", image: "/skills/express.png", category: "frameworks" },
+        { name: "Next.js", image: "/skills/nextjs.svg", category: "frameworks" },
+        { name: "Tailwind CSS", image: "/skills/tailwind.svg", category: "frameworks" },
 
         { name: "MongoDB", image: "/skills/mongodb.svg", category: "databases" },
         { name: "MySQL", image: "/skills/mysql.svg", category: "databases" },

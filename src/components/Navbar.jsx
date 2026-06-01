@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import profilePicture from '../assets/profilePicture.jpeg';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +16,12 @@ const Navbar = () => {
     return (
         <nav className="fixed top-0 left-0 w-full z-50 bg-neo-white border-b-3 border-black px-4 py-3 md:px-8">
             <div className="max-w-7xl mx-auto flex justify-between items-center">
-                <a href="#" className="text-2xl font-display font-bold italic hover:text-neo-main transition-colors">
+                <a href="#" className="flex items-center gap-3 text-2xl font-display font-bold italic hover:text-neo-main transition-colors">
+                    <img
+                        src={profilePicture}
+                        alt="Rishabh Pandey"
+                        className="h-10 w-10 rounded-full border-3 border-black object-cover shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]"
+                    />
                     Rishabh Pandey's Portfolio
                 </a>
 
